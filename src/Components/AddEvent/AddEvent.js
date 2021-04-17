@@ -15,7 +15,7 @@ const AddEvent = () => {
 
   const handleAddBook = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5055/addEvent", {
+    fetch("https://shielded-harbor-94538.herokuapp.com/addEvent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(event),

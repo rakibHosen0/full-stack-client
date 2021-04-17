@@ -7,14 +7,14 @@ const MyEvents = () => {
   const [myEvents, setMyEvents] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5055/registrationByEmail", {
+    fetch("https://shielded-harbor-94538.herokuapp.com/registrationByEmail", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),
     })
       .then((res) => res.json())
       .then((data) => setMyEvents(data));
-  }, []);
+  }, [email]);
 
   return (
     <div className="container">

@@ -8,9 +8,12 @@ const MySingleEvent = (props) => {
   const history = useHistory();
 
   const handleDelete = () => {
-    fetch(`http://localhost:5055/registrationDelete/${_id}`, {
-      method: "DELETE",
-    })
+    fetch(
+      `https://shielded-harbor-94538.herokuapp.com/registrationDelete/${_id}`,
+      {
+        method: "DELETE",
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         alert("Your registered event is delete.");

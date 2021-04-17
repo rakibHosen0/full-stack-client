@@ -16,7 +16,7 @@ const Registration = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (registration.date) {
-      fetch("http://localhost:5055/addRegistration", {
+      fetch("https://shielded-harbor-94538.herokuapp.com/addRegistration", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(registration),
@@ -36,7 +36,7 @@ const Registration = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5055/event/${id}`)
+    fetch(`https://shielded-harbor-94538.herokuapp.com/event/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setEvent(data);
@@ -46,7 +46,7 @@ const Registration = () => {
         newRegistration.img = data.img;
         setRegistration(newRegistration);
       });
-  }, []);
+  }, [id, registration]);
 
   return (
     <>

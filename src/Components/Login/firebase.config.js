@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyB4JsIFXFRkcJze9Y4kdwwjoh-IBUjFsdI",
-  authDomain: "programming-book-shop.firebaseapp.com",
-  projectId: "programming-book-shop",
-  storageBucket: "programming-book-shop.appspot.com",
-  messagingSenderId: "734447158172",
-  appId: "1:734447158172:web:4efa75be164ffebd473e59",
+  apiKey: "AIzaSyDLgnMC_Acgugog_aMUXMRajrR-npdqLAI",
+  authDomain: "programming-book-92acd.firebaseapp.com",
+  projectId: "programming-book-92acd",
+  storageBucket: "programming-book-92acd.appspot.com",
+  messagingSenderId: "933971365",
+  appId: "1:933971365:web:91f42354695768e8ee544c",
 };
 
 export default firebaseConfig;

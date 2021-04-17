@@ -6,7 +6,7 @@ const AllEvents = () => {
   const [allRegistrations, setAllRegistrations] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5055/registrations")
+    fetch("https://shielded-harbor-94538.herokuapp.com/registrations")
       .then((res) => res.json())
       .then((data) => setAllRegistrations(data));
   }, []);
