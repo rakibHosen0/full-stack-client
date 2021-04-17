@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Head For Java",
+    "img": "https://ibb.co/SvQBbWf",
+    "author": "Kathy Sierra & Bert Bates",
+    "price": "120"
+  },
+  {
+    "name": "Python Programming",
+    "img": "https://ibb.co/cFpB5zS",
+    "author": "Anthony Brun",
+    "price": "120"
+  },
+  {
+    "name": "Clean Code",
+    "img": "https://ibb.co/q9S5zKs",
+    "author": "Robert C. martin",
+    "price": "180"
+  },
+  {
+    "name": "Learn to program",
+    "img": "https://ibb.co/gMNKCCc",
+    "author": "Chris pine",
+    "price": "200"
+  },
+  {
+    "name": "Learning JavaScript",
+    "img": "https://ibb.co/0r5MSv8",
+    "author": "Ethan Brown",
+    "price": "300"
+  },
+  {
+    "name": "Head First JavaScript Programming",
+    "img": "https://ibb.co/Sds1ytL",
+    "author": "Eric T Morrison ",
+    "price": "120"
+  },
+  {
+    "name": "Eloquent JavaScript",
+    "img": "https://ibb.co/sR8N00N",
+    "author": "Marijn Haverbeke",
+    "price": "150"
+  },
+  {
+    "name": "The Principles of Object-Oriented JavaScript",
+    "img": "https://ibb.co/yFdbJqD",
+    "author": " Nicholas C.Zakas",
+    "price": "180"
+  },
+  {
+    "name": "Effective JavaScript",
+    "img": "https://ibb.co/6NSnTTw",
+    "author": " David Herman",
+    "price": "120"
+  }
+]
