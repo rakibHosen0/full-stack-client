@@ -11,7 +11,6 @@ const Registration = () => {
     email: user.email,
   });
 
-  const { name, description } = event;
   const history = useHistory();
 
   const handleSubmit = (e) => {

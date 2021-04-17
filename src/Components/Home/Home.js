@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SingleEvent from "../SingleEvent/SingleEvent";
+import SingleBook from "../SingleBook/SingleBook";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -23,7 +23,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           {data.map((event) => (
-            <SingleEvent key={event._id} event={event}></SingleEvent>
+            <SingleBook key={event._id} event={event}></SingleBook>
           ))}
         </div>
       </div>

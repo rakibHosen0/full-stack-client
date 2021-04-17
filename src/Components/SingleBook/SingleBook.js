@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SingleEvent = (props) => {
+const SingleBook = (props) => {
   const event = props.event;
   const { _id, name, img, author, price } = event;
 
@@ -22,4 +22,4 @@ const SingleEvent = (props) => {
   );
 };
 
-export default SingleEvent;
+export default SingleBook;
